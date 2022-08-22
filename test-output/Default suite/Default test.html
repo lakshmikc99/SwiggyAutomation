@@ -1,0 +1,440 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 22 14:25:08 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>485 seconds (485882 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to view the total cost and discount in Cart page", "Optional[Add To Cart functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 325d186760a0e28b02ec19dabf053539
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1541119081", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541119081'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 325d186760a0e28b02ec19dabf053539
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:34)
+</pre></div></td>
+<td>48</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to read data from Excel", "Optional[Search dishes from Restaurant and Add to Cart]"</td>
+<td><div><pre>java.io.FileNotFoundException: C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy\src\test\java\Excel\Dishes Names.xlsx
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:302)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+	at PageFactoryy.swiggyReadDataFromExcelPageFactory.readExcel(swiggyReadDataFromExcelPageFactory.java:52)
+	at StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items(swiggyReadDataFromExcelDefinition.java:49)
+	at ?.User should be able to read dishes names from Excel file and add Food items(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/dishesUsingExcel.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace120395478", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace120395478'><pre>java.io.FileNotFoundException: C:\Users\aavadhoo\OneDrive - Capgemini\Desktop\JUnit\com.swiggyyy\src\test\java\Excel\Dishes Names.xlsx
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:302)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
+	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
+	at PageFactoryy.swiggyReadDataFromExcelPageFactory.readExcel(swiggyReadDataFromExcelPageFactory.java:52)
+	at StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items(swiggyReadDataFromExcelDefinition.java:49)
+	at ?.User should be able to read dishes names from Excel file and add Food items(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/dishesUsingExcel.feature:7)
+</pre></div></td>
+<td>11</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to enter other location after clicking on Clear button", "Optional[Location Functionality]"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=104.0.5112.101)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71e99029c4fcb6c118f83bd79c868ceb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)
+	at ?.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1543871080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1543871080'><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=104.0.5112.101)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71e99029c4fcb6c118f83bd79c868ceb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)
+	at ?.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the Delivery Location field is giving suggestions for Invalid city names", "Optional[Location Functionality]"</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=104.0.5112.101)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d3f84c515e0cd60007830729533276
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)
+	at ?.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:22)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1184527733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1184527733'><pre>org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=104.0.5112.101)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 26d3f84c515e0cd60007830729533276
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)
+	at ?.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:22)
+</pre></div></td>
+<td>6</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to add multiple food items from same restaurant", "Optional[Add To Cart functionality]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 77fc77f91aefe4d9555bf67b4f6fbec3
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace568787640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace568787640'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]&quot;}
+  (Session info: chrome=104.0.5112.101)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LIN80025068&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\LAKSHKC\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 77fc77f91aefe4d9555bf67b4f6fbec3
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)
+	at PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)
+	at StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)
+	at ?.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:25)
+</pre></div></td>
+<td>49</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to get Payment Offers/Coupons", "Optional[Swiggy Offers functionality]"</td>
+<td></td>
+<td>15</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to change the location on Home Page", "Optional[Location Functionality]"</td>
+<td></td>
+<td>13</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to get suggestion for Invalid restaurant and food item name", "Optional[Search functionality]"</td>
+<td></td>
+<td>13</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to access Help Page to clarify basic doubts", "Optional[Swiggy Help functionality]"</td>
+<td></td>
+<td>26</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if clicking on Locate Me button fetch the current location.", "Optional[Location Functionality]"</td>
+<td></td>
+<td>12</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to get Restaurant offers", "Optional[Swiggy Offers functionality]"</td>
+<td></td>
+<td>13</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to click on suggestions by Food Items", "Optional[Search functionality]"</td>
+<td></td>
+<td>16</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly", "Optional[Swiggy Filters on HomePage Functionality]"</td>
+<td></td>
+<td>18</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to view the list of all Recommended food items", "Optional[Add To Cart functionality]"</td>
+<td></td>
+<td>18</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to copy the Coupon code", "Optional[Swiggy Offers functionality]"</td>
+<td></td>
+<td>21</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Location Functionality]"</td>
+<td></td>
+<td>16</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to click on Popular Cuisines and get suggestions", "Optional[Search functionality]"</td>
+<td></td>
+<td>21</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to get suggestions for Restaurant names in Search field", "Optional[Search functionality]"</td>
+<td></td>
+<td>17</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the url of Swiggy Page", "Optional[Location Functionality]"</td>
+<td></td>
+<td>12</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check the behaviour of Cart button when no food item is added", "Optional[Add To Cart functionality]"</td>
+<td></td>
+<td>13</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code", "Optional[Swiggy Offers functionality]"</td>
+<td></td>
+<td>18</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to sort the search results by different methods", "Optional[Search functionality]"</td>
+<td></td>
+<td>19</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to click on suggestions by Restaurant name", "Optional[Search functionality]"</td>
+<td></td>
+<td>20</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if Restaurants and Dishes section are giving results", "Optional[Search functionality]"</td>
+<td></td>
+<td>21</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if User is able to clear applied filters", "Optional[Swiggy Filters on HomePage Functionality]"</td>
+<td></td>
+<td>23</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+<tr>
+<td title='TestRunner.testRunnerClass.runScenario()'><b>runScenario</b><br>Test class: TestRunner.testRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the Delivery Location field is giving suggestions for valid city names", "Optional[Location Functionality]"</td>
+<td></td>
+<td>8</td>
+<td>TestRunner.testRunnerClass@506ae4d4</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,2551 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T08:55:09.556Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3396193100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the url of Swiggy Page",
+        "description": "",
+        "id": "location-functionality;validate-the-url-of-swiggy-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2412216600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6521044400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14960600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters url of Swiggy",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_url_of_swiggy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45878400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User should be navigated to Swiggy page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_be_navigated_to_swiggy_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:55:22.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2010625200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Check if the Delivery Location field is giving suggestions for valid city names",
+        "description": "",
+        "id": "location-functionality;check-if-the-delivery-location-field-is-giving-suggestions-for-valid-city-names;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2402128600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11899420600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 528706100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters Valid \"Pune\" and get the list of suggestions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pune\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_valid_and_get_the_list_of_suggestions(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23934500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to get suggestions for valid city names",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_be_able_to_get_suggestions_for_valid_city_names()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:55:39.033Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1958926500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Check if the Delivery Location field is giving suggestions for valid city names",
+        "description": "",
+        "id": "location-functionality;check-if-the-delivery-location-field-is-giving-suggestions-for-valid-city-names;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 189113500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5739893800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 678218100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User enters Valid \"Bangalore\" and get the list of suggestions",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_valid_and_get_the_list_of_suggestions(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23933600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to get suggestions for valid city names",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_be_able_to_get_suggestions_for_valid_city_names()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:55:47.683Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2163606000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check if the Delivery Location field is giving suggestions for Invalid city names",
+        "description": "",
+        "id": "location-functionality;check-if-the-delivery-location-field-is-giving-suggestions-for-invalid-city-names",
+        "after": [
+          {
+            "result": {
+              "duration": 285158700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome\u003d104.0.5112.101)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80025068\u0027, ip: \u0027172.20.10.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\LAKSHKC\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 26d3f84c515e0cd60007830729533276\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)\r\n\tat ✽.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:22)\r\n",
+              "duration": 3957751900,
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "User enters Invalid city names",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_invalid_city_names(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "location"
+                ]
+              },
+              {
+                "cells": [
+                  "gsadhdj"
+                ]
+              },
+              {
+                "cells": [
+                  "231265273"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should not be able to get suggestions for Invalid city names and error message should be displayed",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_not_be_able_to_get_suggestions_for_invalid_city_names_and_error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:55:54.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2513509700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Check if User is able to enter other location after clicking on Clear button",
+        "description": "",
+        "id": "location-functionality;check-if-user-is-able-to-enter-other-location-after-clicking-on-clear-button",
+        "after": [
+          {
+            "result": {
+              "duration": 276148200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED\n  (Session info: chrome\u003d104.0.5112.101)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80025068\u0027, ip: \u0027172.20.10.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\LAKSHKC\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58272}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 71e99029c4fcb6c118f83bd79c868ceb\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page(swiggyLocationDefinition.java:37)\r\n\tat ✽.User is on Swiggy Page(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/Location.feature:31)\r\n",
+              "duration": 692963600,
+              "status": "failed"
+            },
+            "line": 31,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 999100,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User enters Valid city name and Click on Find Food button",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_valid_city_name_and_click_on_find_food_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should be able to view the Restaurants for the location",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_be_able_to_view_the_restaurants_for_the_location()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:55:57.657Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2406498300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Check if clicking on Locate Me button fetch the current location.",
+        "description": "",
+        "id": "location-functionality;check-if-clicking-on-locate-me-button-fetch-the-current-location.",
+        "after": [
+          {
+            "result": {
+              "duration": 165733800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3684035900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2173779500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User click on Locate Me button",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_click_on_locate_me_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3642746800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User should be able to get restaurants for current location",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_should_be_able_to_get_restaurants_for_current_location()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-08-22T08:56:09.766Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2342930200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Check if User is able to change the location on Home Page",
+        "description": "",
+        "id": "location-functionality;check-if-user-is-able-to-change-the-location-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2448843500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3434114200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User is on Swiggy Page",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_on_swiggy_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3785187100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User enters Valid city name and Click on Find Food button",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_enters_valid_city_name_and_click_on_find_food_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 940271600,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User clicks on Location dropdown and changes the location",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_clicks_on_location_dropdown_and_changes_the_location()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32914500,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User is able to select location and view the Restaurants for the location",
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.user_is_able_to_select_location_and_view_the_restaurants_for_the_location()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Location"
+          }
+        ]
+      }
+    ],
+    "name": "Location Functionality",
+    "description": "",
+    "id": "location-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/Location.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:56:22.766Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2756440100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Check if User is able to get suggestions for Restaurant names in Search field",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-get-suggestions-for-restaurant-names-in-search-field",
+        "after": [
+          {
+            "result": {
+              "duration": 2438042700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6969420400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1219432800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters Restaurant name",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_enters_restaurant_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4189346100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get appropriate suggestions",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_should_get_appropriate_suggestions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:56:40.351Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1966171200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check if User is able to get suggestion for Invalid restaurant and food item name",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-get-suggestion-for-invalid-restaurant-and-food-item-name",
+        "after": [
+          {
+            "result": {
+              "duration": 2499117600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7451895000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 605901800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Invalid restaurant name",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_enters_invalid_restaurant_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Restaurant"
+                ]
+              },
+              {
+                "cells": [
+                  "southern star"
+                ]
+              },
+              {
+                "cells": [
+                  "Ironhill"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206074100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Invalid Food name",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_enters_invalid_food_name(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Food"
+                ]
+              },
+              {
+                "cells": [
+                  "abdhfyri"
+                ]
+              },
+              {
+                "cells": [
+                  "ejrjk32"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 718902300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "No suggestions are displayed",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.no_suggestions_are_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:56:53.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2380867000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Check if User is able to click on suggestions by Restaurant name",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-click-on-suggestions-by-restaurant-name",
+        "after": [
+          {
+            "result": {
+              "duration": 2392506700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6382801900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1431699400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters Valid restaurant name",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_enters_valid_restaurant_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3723342300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is able to click on suggestions displayed",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_suggestions_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4230938700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User should be redirected to appropriate Restaurant result page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_should_be_redirected_to_appropriate_restaurant_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:57:14.364Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2003709400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Check if User is able to click on suggestions by Food Items",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-click-on-suggestions-by-food-items",
+        "after": [
+          {
+            "result": {
+              "duration": 2404334800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7035702900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276262400,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enters Valid food item name",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_enters_valid_food_item_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 866754200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User is able to click on suggestion displayed",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_suggestion_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4220872200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User should be redirected to appropriate Food result page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_should_be_redirected_to_appropriate_food_result_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:57:31.182Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1974310900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Check if User is able to click on Popular Cuisines and get suggestions",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-click-on-popular-cuisines-and-get-suggestions",
+        "after": [
+          {
+            "result": {
+              "duration": 2419417000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7883087200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4215722100,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User looks for Popular cuisines",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_looks_for_popular_cuisines()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1258762100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Clicks on desired popular cuisines suggestion",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.clicks_on_desired_popular_cuisines_suggestion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4161489300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User should be able to view appropriate restaurants list for that cuisine",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_should_be_able_to_view_appropriate_restaurants_list_for_that_cuisine()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:57:53.105Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2168490200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "Check if Restaurants and Dishes section are giving results",
+        "description": "",
+        "id": "search-functionality;check-if-restaurants-and-dishes-section-are-giving-results",
+        "after": [
+          {
+            "result": {
+              "duration": 164415300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6578426000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1202399200,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User click on Valid food item",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_click_on_valid_food_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1831907600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User is able to see options Restaurants and Dishes",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_able_to_see_options_restaurants_and_dishes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9683812500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User click on Restaurants and Dishes",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_click_on_restaurants_and_dishes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User is able to click on them to fetch appropriate result",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_able_to_click_on_them_to_fetch_appropriate_result()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Search Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:58:14.756Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2084510000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Check if User is able to sort the search results by different methods",
+        "description": "",
+        "id": "search-functionality;check-if-user-is-able-to-sort-the-search-results-by-different-methods",
+        "after": [
+          {
+            "result": {
+              "duration": 257720800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7037286300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "User is on Search Page",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_on_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1116625600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "User click on Valid food item",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_click_on_valid_food_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1615270000,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "User is able to see options Restaurants and Dishes",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_is_able_to_see_options_restaurants_and_dishes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3112535400,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "User can sort by different methods",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.user_can_sort_by_different_methods()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4164461700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Appropriate search results should be displayed",
+            "match": {
+              "location": "StepDefinition.swiggySearchDefinition.appropriate_search_results_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/Search.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given User is already on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:58:34.163Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2032205600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Check the behaviour of Cart button when no food item is added",
+        "description": "",
+        "id": "add-to-cart-functionality;check-the-behaviour-of-cart-button-when-no-food-item-is-added",
+        "after": [
+          {
+            "result": {
+              "duration": 115010400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3911909900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is already on Home page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2322376200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Cart button without adding any food item",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_clicks_on_cart_button_without_adding_any_food_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779089500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gets redirected to secure checkout page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_gets_redirected_to_secure_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4228241600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should get empty cart message",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_should_get_empty_cart_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is already on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:58:47.573Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2407859300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check if User is able to view the list of all Recommended food items",
+        "description": "",
+        "id": "add-to-cart-functionality;check-if-user-is-able-to-view-the-list-of-all-recommended-food-items",
+        "after": [
+          {
+            "result": {
+              "duration": 140035400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5062381500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User is already on Home page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2207348400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User click on search field",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2520471000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Valid Restaurant name and click on enter",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6291592500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be able to view recommended food items list",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_should_be_able_to_view_recommended_food_items_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is already on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:59:06.245Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2048216700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Check if User is able to add multiple food items from same restaurant",
+        "description": "",
+        "id": "add-to-cart-functionality;check-if-user-is-able-to-add-multiple-food-items-from-same-restaurant",
+        "after": [
+          {
+            "result": {
+              "duration": 2438766200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4751603300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User is already on Home page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2316923000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on search field",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2128144800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enters Valid Restaurant name and click on enter",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4479251100,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is able to add different desired food items",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]\"}\n  (Session info: chrome\u003d104.0.5112.101)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80025068\u0027, ip: \u0027172.20.10.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\LAKSHKC\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58859}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 77fc77f91aefe4d9555bf67b4f6fbec3\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\r\n\tat PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)\r\n\tat StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)\r\n\tat ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:25)\r\n",
+              "duration": 31011114500,
+              "status": "failed"
+            },
+            "line": 25,
+            "name": "User is able to increase or decrease the quantity of food item",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User is able to click on Checkout button and User should be able to redirect to secure checkout page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is already on Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T08:59:55.434Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2013592200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Check if User is able to view the total cost and discount in Cart page",
+        "description": "",
+        "id": "add-to-cart-functionality;check-if-user-is-able-to-view-the-total-cost-and-discount-in-cart-page",
+        "after": [
+          {
+            "result": {
+              "duration": 2409512600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4418240900,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is already on Home page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_already_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2168394800,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User click on search field",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_click_on_search_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2239594200,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters Valid Restaurant name and click on enter",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_enters_valid_restaurant_name_and_click_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4458027100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User is able to add different desired food items",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_add_different_desired_food_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]\"}\n  (Session info: chrome\u003d104.0.5112.101)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN80025068\u0027, ip: \u0027172.20.10.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.101, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\\Users\\LAKSHKC\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:58914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 325d186760a0e28b02ec19dabf053539\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[1]/div[1]/div[1]/div[1]/div[4]/div[2]/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div[1]/div[2]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy24.click(Unknown Source)\r\n\tat PageFactoryy.swiggyAddToCartPageFactory.increaseQuantity(swiggyAddToCartPageFactory.java:144)\r\n\tat StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item(swiggyAddToCartDefinition.java:63)\r\n\tat ✽.User is able to increase or decrease the quantity of food item(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/addToCart.feature:34)\r\n",
+              "duration": 31054210100,
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "User is able to increase or decrease the quantity of food item",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_increase_or_decrease_the_quantity_of_food_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "User is able to click on Checkout button and User should be able to redirect to secure checkout page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_click_on_checkout_button_and_user_should_be_able_to_redirect_to_secure_checkout_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "User is able to view total cost and discount in cart page",
+            "match": {
+              "location": "StepDefinition.swiggyAddToCartDefinition.user_is_able_to_view_total_cost_and_discount_in_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Add To Cart functionality",
+    "description": "",
+    "id": "add-to-cart-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/addToCart.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T09:00:44.208Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2006066500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check if User is able to read data from Excel",
+        "description": "",
+        "id": "search-dishes-from-restaurant-and-add-to-cart;check-if-user-is-able-to-read-data-from-excel",
+        "after": [
+          {
+            "result": {
+              "duration": 309186700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4141286600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Swiggy Home Page",
+            "match": {
+              "location": "StepDefinition.swiggyReadDataFromExcelDefinition.user_is_on_swiggy_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4686140100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on search field \u0026 User enters Valid Restaurant name and click  on enter",
+            "match": {
+              "location": "StepDefinition.swiggyReadDataFromExcelDefinition.user_click_on_search_field_user_enters_valid_restaurant_name_and_click_on_enter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.io.FileNotFoundException: C:\\Users\\aavadhoo\\OneDrive - Capgemini\\Desktop\\JUnit\\com.swiggyyy\\src\\test\\java\\Excel\\Dishes Names.xlsx\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:302)\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)\r\n\tat org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)\r\n\tat PageFactoryy.swiggyReadDataFromExcelPageFactory.readExcel(swiggyReadDataFromExcelPageFactory.java:52)\r\n\tat StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items(swiggyReadDataFromExcelDefinition.java:49)\r\n\tat ✽.User should be able to read dishes names from Excel file and add Food items(file:///C:/Users/LAKSHKC/eclipse-workspace/Selenium/SwiggyAutomationProject/src/test/java/FeatureFile/dishesUsingExcel.feature:7)\r\n",
+              "duration": 4990500,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User should be able to read dishes names from Excel file and add Food items",
+            "match": {
+              "location": "StepDefinition.swiggyReadDataFromExcelDefinition.user_should_be_able_to_read_dishes_names_from_excel_file_and_add_food_items()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 992600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on CheckOut button and should be redirected to Secure Checkout page",
+            "match": {
+              "location": "StepDefinition.swiggyReadDataFromExcelDefinition.click_on_check_out_button_and_should_be_redirected_to_secure_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DishesFromExcel"
+          }
+        ]
+      }
+    ],
+    "name": "Search dishes from Restaurant and Add to Cart",
+    "description": "",
+    "id": "search-dishes-from-restaurant-and-add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/dishesUsingExcel.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Given User is on Location speicific Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:00:55.383Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2518522000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check if User is able to click on Cuisines checkboxes and get Restaurants accordingly",
+        "description": "",
+        "id": "swiggy-filters-on-homepage-functionality;check-if-user-is-able-to-click-on-cuisines-checkboxes-and-get-restaurants-accordingly",
+        "after": [
+          {
+            "result": {
+              "duration": 112202800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3719778200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Home  Page",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7753695200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on filter section",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_clicks_on_filter_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358300700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User selects the appropriate checkboxes of cuisines",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_selects_the_appropriate_checkboxes_of_cuisines()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113698800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks on Show restaurant button",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.clicks_on_show_restaurant_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4382295200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Appropriate restaurants according to filter applied will be displayed",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.appropriate_restaurants_according_to_filter_applied_will_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filters"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Given User is on Location speicific Home page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:01:14.353Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2424729200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check if User is able to clear applied filters",
+        "description": "",
+        "id": "swiggy-filters-on-homepage-functionality;check-if-user-is-able-to-clear-applied-filters",
+        "after": [
+          {
+            "result": {
+              "duration": 161359200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4359963200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Home  Page",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7955319900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on filter section",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_clicks_on_filter_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 335684600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User selects the appropriate checkboxes of cuisines",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_selects_the_appropriate_checkboxes_of_cuisines()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8745508100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to click on clear button",
+            "match": {
+              "location": "StepDefinition.swiggyFiltersOnHomepageDefinition.user_should_be_able_to_click_on_clear_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Filters"
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Filters on HomePage Functionality",
+    "description": "",
+    "id": "swiggy-filters-on-homepage-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/filtersOnHomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T09:01:38.350Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2481758200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Check if User is able to access Help Page to clarify basic doubts",
+        "description": "",
+        "id": "swiggy-help-functionality;check-if-user-is-able-to-access-help-page-to-clarify-basic-doubts",
+        "after": [
+          {
+            "result": {
+              "duration": 119567300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4372865900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on  Home  Page",
+            "match": {
+              "location": "StepDefinition.swiggyHelpDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2093813100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Help section",
+            "match": {
+              "location": "StepDefinition.swiggyHelpDefinition.user_clicks_on_help_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4195981900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is redirected to Help and Support Page",
+            "match": {
+              "location": "StepDefinition.swiggyHelpDefinition.user_is_redirected_to_help_and_support_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13464283900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be able to resolve doubts related to Partner Onboarding, Legal and FAQs",
+            "match": {
+              "location": "StepDefinition.swiggyHelpDefinition.user_should_be_able_to_resolve_doubts_related_to_partner_onboarding_legal_and_fa_qs()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Help"
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Help functionality",
+    "description": "",
+    "id": "swiggy-help-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/help.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Given User is on Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:02:05.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2336997100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Check if User is able to get Restaurant offers",
+        "description": "",
+        "id": "swiggy-offers-functionality;check-if-user-is-able-to-get-restaurant-offers",
+        "after": [
+          {
+            "result": {
+              "duration": 136634400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4861154700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2110104700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Offers button",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4208904300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Restaurant offers",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_restaurant_offers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24468400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should get all the list of discounts applicable on Restaurants",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_should_get_all_the_list_of_discounts_applicable_on_restaurants()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Offers"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:02:18.819Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2334965200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check if User is able to get Payment Offers/Coupons",
+        "description": "",
+        "id": "swiggy-offers-functionality;check-if-user-is-able-to-get-payment-offers/coupons",
+        "after": [
+          {
+            "result": {
+              "duration": 201632300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4683334900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2114018000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on Offers button",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5722392500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User clicks on Payment offers/Coupons",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130086600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should get all the list of available coupons",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_should_get_all_the_list_of_available_coupons()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Offers"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:02:34.021Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2019583500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Check if User is able to click on More in Coupons and get the terms and conditions of the Coupon code",
+        "description": "",
+        "id": "swiggy-offers-functionality;check-if-user-is-able-to-click-on-more-in-coupons-and-get-the-terms-and-conditions-of-the-coupon-code",
+        "after": [
+          {
+            "result": {
+              "duration": 293587900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4057217000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994946500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on Offers button",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5695369800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User clicks on Payment offers/Coupons",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4209268800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Click on more in Coupon",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_click_on_more_in_coupon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62829800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should get the terms and conditions of the Coupon code",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_should_get_the_terms_and_conditions_of_the_coupon_code()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Offers"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Given User is on Home Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2022-08-22T09:02:52.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2703954700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Check if User is able to copy the Coupon code",
+        "description": "",
+        "id": "swiggy-offers-functionality;check-if-user-is-able-to-copy-the-coupon-code",
+        "after": [
+          {
+            "result": {
+              "duration": 2400012600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.swiggyLocationDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4444413200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2104907100,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User clicks on Offers button",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_offers_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5858159500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User clicks on Payment offers/Coupons",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_payment_offers_coupons()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4206824500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on Copy Code button",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.user_clicks_on_copy_code_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23894600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The code is copied",
+            "match": {
+              "location": "StepDefinition.swiggyOffersDefinition.the_code_is_copied()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Offers"
+          }
+        ]
+      }
+    ],
+    "name": "Swiggy Offers functionality",
+    "description": "",
+    "id": "swiggy-offers-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/FeatureFile/offers.feature",
+    "tags": []
+  }
+]
